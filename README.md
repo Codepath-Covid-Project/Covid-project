@@ -1,6 +1,6 @@
 ===
 
-# APP_NAME_HERE
+# CovidCapacity
 
 ## Table of Contents
 1. [Overview](#Overview)
