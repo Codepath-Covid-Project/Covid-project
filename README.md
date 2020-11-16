@@ -1,5 +1,3 @@
-===
-
 # CovidCapacity
 
 ## Table of Contents
