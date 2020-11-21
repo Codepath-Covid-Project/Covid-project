@@ -77,8 +77,31 @@ Optional:
 ## Schema 
 [This section will be completed in Unit 9]
 ### Models
-[Add table of models]
+
+
+| Property      | Type     | Description                              |
+| ------------- | -------- | ---------------------------------------- |
+| updatedAt     | DateTime | most recent update of attendance         |
+| image         | File     | business profile                         |
+| business      | Boolean  | determine whether it is user or business |
+| count         | Number   | current attendance                       |
+| maxCapacity   | Number   | maximum number of people in a building   |
+| phoneNum      | Number   | phone number of a business               |
+| language      | String   | to choose language                       |
+| storeName     | String   | name                                     |
+| objectId      | String   | unique id for the user                   |
+| address       | String   | location of the business                 |
+| notifications | Boolean  | turning on/off notifications             |
 ### Networking
-- [Add list of network requests by screen ]
+- Map Screen
+    - (Read/GET) Query all locations of businesses
+    - (Create/POST) Create a new marker based on an address
+    - (Delete) Delete a marker from the map
+    - (Create/POST) Update the count of people in a building
+- Profile Screen
+    - (Read/GET) Query logged in user object
+    - (Update/PUT) Update user profile image, name, number, and address
+- Settings Screen
+    - (Update/PUT) Update setting preferences
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
