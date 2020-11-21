@@ -68,7 +68,7 @@ Optional:
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+<img src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FqPRVsMjjXKRkqlZhbWmXMf%2FCovidCapacity%3Fnode-id%3D0%253A1" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 
