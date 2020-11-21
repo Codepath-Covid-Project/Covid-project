@@ -1,3 +1,6 @@
+Original App Design Project - README Template
+===
+
 # CovidCapacity
 
 ## Table of Contents
@@ -66,13 +69,8 @@ Optional:
 * Map -> view the number of people currently in the store
 * Settings -> toggle the user preferences for the app
 
-## Wireframes
-[Add picture of your hand sketched wireframes in this section]
-<img src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FqPRVsMjjXKRkqlZhbWmXMf%2FCovidCapacity%3Fnode-id%3D0%253A1" width=600>
-
-### [BONUS] Digital Wireframes & Mockups
-
-### [BONUS] Interactive Prototype
+## Digital Wireframes
+![](https://i.imgur.com/MwJlKks.png)
 
 ## Schema 
 [This section will be completed in Unit 9]
@@ -100,7 +98,8 @@ Optional:
     - (Create/POST) Update the count of people in a building
 - Profile Screen
     - (Read/GET) Query logged in user object
-    - (Update/PUT) Update user profile image, name, number, and address
+    - (Update/PUT) Update user profile image, name, number, ![]
+and address
 - Settings Screen
     - (Update/PUT) Update setting preferences
 - [Create basic snippets for each Parse network request]
