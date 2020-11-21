@@ -1,6 +1,3 @@
-Original App Design Project - README Template
-===
-
 # CovidCapacity
 
 ## Table of Contents
@@ -102,5 +99,3 @@ Optional:
 and address
 - Settings Screen
     - (Update/PUT) Update setting preferences
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
