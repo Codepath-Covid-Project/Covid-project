@@ -67,7 +67,7 @@ Optional:
 * Settings -> toggle the user preferences for the app
 
 ## Digital Wireframes
-![](https://i.imgur.com/MwJlKks.png)
+<img src="https://i.imgur.com/MwJlKks.png" width=300>
 
 ## Schema 
 [This section will be completed in Unit 9]
