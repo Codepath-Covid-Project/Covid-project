@@ -25,6 +25,7 @@ An iOS app to help combat COVID-19 by minimizing crowds and exposure. Allows bus
 
 **Required Must-have Stories**
 
+* App icon and launch screen photo
 * User can create an account and login.
 * User can display head counts on a map at a specific location.
 * Profile page for each business.
