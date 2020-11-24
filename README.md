@@ -29,7 +29,7 @@ An iOS app to help combat COVID-19 by minimizing crowds and exposure. Allows bus
 * User can create an account and login.
 * User can display head counts on a map at a specific location.
 * Profile page for each business.
-* Settings (Accesibility, Notification, General, etc.)
+* Settings (Accessibility, Notification, General, etc.)
 
 **Optional Nice-to-have Stories**
 * Notify for Covid exposure.
