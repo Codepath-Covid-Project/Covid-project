@@ -17,11 +17,15 @@ class ProfileScreenViewController: UIViewController {
     @IBOutlet weak var state: UITextField!
     @IBOutlet weak var zipCode: UITextField!
     @IBOutlet weak var maxCapacity: UITextField!
+    @IBOutlet weak var edit: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        edit.layer.borderWidth = 1.0
+        edit.layer.borderColor = UIColor(red: 0, green: 0.478431, blue: 1, alpha: 1).cgColor
+        edit.layer.borderWidth = 1.0
+        edit.layer.borderColor = UIColor(red: 0, green: 0.478431, blue: 1, alpha: 1).cgColor
     }
     
 
