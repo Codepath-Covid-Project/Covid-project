@@ -7,7 +7,8 @@ target 'CovidCapacity' do
 
   # Pods for CovidCapacity
   pod 'Mapbox-iOS-SDK', '~> 6.3.0'
-
+  pod 'Parse'
+  
   target 'CovidCapacityTests' do
     inherit! :search_paths
     # Pods for testing
