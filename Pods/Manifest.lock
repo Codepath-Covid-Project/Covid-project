@@ -1,0 +1,20 @@
+PODS:
+  - Mapbox-iOS-SDK (6.3.0):
+    - MapboxMobileEvents (~> 0.10.4)
+  - MapboxMobileEvents (0.10.6)
+
+DEPENDENCIES:
+  - Mapbox-iOS-SDK (~> 6.3.0)
+
+SPEC REPOS:
+  trunk:
+    - Mapbox-iOS-SDK
+    - MapboxMobileEvents
+
+SPEC CHECKSUMS:
+  Mapbox-iOS-SDK: 2563ed87ead6ec08f1c2090873977b8a7be335a8
+  MapboxMobileEvents: 5ef561e6b6f9cbff2900d62a52322e75d1a7dfdf
+
+PODFILE CHECKSUM: f33340b97069c8d50d4648cd46ca1ed4bc74ac95
+
+COCOAPODS: 1.9.3
