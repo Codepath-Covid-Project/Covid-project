@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -11,7 +11,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="KiA-qp-fJv">
             <objects>
-                <tabBarController id="tZs-08-bkr" sceneMemberID="viewController">
+                <tabBarController modalPresentationStyle="fullScreen" id="tZs-08-bkr" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="CLB-MO-e54">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -127,7 +127,7 @@
             <objects>
                 <viewController id="UZw-Ix-B9Z" customClass="ProfileScreenViewController" customModule="CovidCapacity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7NG-tH-PcZ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pic" highlightedImage="Screen Shot 2020-12-03 at 4.53.53 PM" translatesAutoresizingMaskIntoConstraints="NO" id="oyA-J1-JnI">
@@ -146,25 +146,25 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ntL-IJ-pJk">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="La Jolla" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ntL-IJ-pJk">
                                 <rect key="frame" x="223" y="425" width="150" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1Nr-Is-qVI">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="CA" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1Nr-Is-qVI">
                                 <rect key="frame" x="54" y="508" width="150" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="j5b-fw-Njq">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="92093" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="j5b-fw-Njq">
                                 <rect key="frame" x="223" y="508" width="150" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aLl-Fs-wpJ">
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="9500 Gilman Dr" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aLl-Fs-wpJ">
                                 <rect key="frame" x="54" y="327" width="319" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -237,15 +237,15 @@
                     </view>
                     <navigationItem key="navigationItem" id="pM4-MX-PlD"/>
                     <connections>
-                        <outlet property="addressLine" destination="aLl-Fs-wpJ" id="zjO-xO-8R1"/>
-                        <outlet property="aptNum" destination="TIz-H5-q5I" id="ie1-2h-kM7"/>
-                        <outlet property="city" destination="ntL-IJ-pJk" id="KMc-UD-V0V"/>
-                        <outlet property="edit" destination="DQZ-vl-Dbd" id="bl5-AT-hvL"/>
+                        <outlet property="addressLineField" destination="aLl-Fs-wpJ" id="lFe-hB-DcW"/>
+                        <outlet property="aptNumField" destination="TIz-H5-q5I" id="l6Y-2m-cpT"/>
+                        <outlet property="cityField" destination="ntL-IJ-pJk" id="IKC-g4-HBr"/>
+                        <outlet property="editButton" destination="DQZ-vl-Dbd" id="ugb-n8-xbR"/>
                         <outlet property="image" destination="oyA-J1-JnI" id="nvn-x1-puf"/>
-                        <outlet property="maxCapacity" destination="FeL-dA-5lE" id="YYY-p6-Ln9"/>
-                        <outlet property="name" destination="L4a-e2-AHR" id="bt5-oG-hbi"/>
-                        <outlet property="state" destination="1Nr-Is-qVI" id="S6h-b2-AJ4"/>
-                        <outlet property="zipCode" destination="j5b-fw-Njq" id="DCN-7Q-Pxs"/>
+                        <outlet property="maxCapacityField" destination="FeL-dA-5lE" id="miE-ed-GIQ"/>
+                        <outlet property="nameField" destination="L4a-e2-AHR" id="OLl-ot-brO"/>
+                        <outlet property="stateField" destination="1Nr-Is-qVI" id="M3K-h0-5AX"/>
+                        <outlet property="zipCodeField" destination="j5b-fw-Njq" id="TzR-7c-vlj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2io-sL-MOP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -257,7 +257,7 @@
             <objects>
                 <viewController id="fNW-ZV-pA1" customClass="SettingsScreenViewController" customModule="CovidCapacity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="a0b-R2-NQe">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XMo-JI-RyX">
@@ -303,7 +303,7 @@
                     <tabBarItem key="tabBarItem" title="Settings" image="settings_1" id="lfd-hp-KXZ"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9YA-fQ-2cS">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -320,7 +320,7 @@
             <objects>
                 <viewController id="Vz3-zp-k93" customClass="MapScreenViewController" customModule="CovidCapacity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ck3-C7-NeN">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="ACh-7r-vg1"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -334,11 +334,11 @@
         <!--Profile-->
         <scene sceneID="Vc0-CM-qAi">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="6Iy-Eb-XDq" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="6Iy-Eb-XDq" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Profile" image="profile_1" id="0vc-Cv-sOc"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="o3e-fJ-XBm">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
