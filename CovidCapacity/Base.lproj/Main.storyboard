@@ -11,7 +11,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="KiA-qp-fJv">
             <objects>
-                <tabBarController id="tZs-08-bkr" sceneMemberID="viewController">
+                <tabBarController modalPresentationStyle="fullScreen" id="tZs-08-bkr" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="CLB-MO-e54">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -66,7 +66,7 @@
                                 <rect key="frame" x="81" y="422" width="252" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kV4-wR-CsD">
                                 <rect key="frame" x="55" y="522" width="100" height="50"/>
@@ -127,7 +127,7 @@
             <objects>
                 <viewController id="UZw-Ix-B9Z" customClass="ProfileScreenViewController" customModule="CovidCapacity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7NG-tH-PcZ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pic" highlightedImage="Screen Shot 2020-12-03 at 4.53.53 PM" translatesAutoresizingMaskIntoConstraints="NO" id="oyA-J1-JnI">
@@ -257,7 +257,7 @@
             <objects>
                 <viewController id="fNW-ZV-pA1" customClass="SettingsScreenViewController" customModule="CovidCapacity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="a0b-R2-NQe">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XMo-JI-RyX">
@@ -303,7 +303,7 @@
                     <tabBarItem key="tabBarItem" title="Settings" image="settings_1" id="lfd-hp-KXZ"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9YA-fQ-2cS">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -320,7 +320,7 @@
             <objects>
                 <viewController id="Vz3-zp-k93" customClass="MapScreenViewController" customModule="CovidCapacity" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ck3-C7-NeN">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="ACh-7r-vg1"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -338,7 +338,7 @@
                     <tabBarItem key="tabBarItem" title="Profile" image="profile_1" id="0vc-Cv-sOc"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="o3e-fJ-XBm">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>

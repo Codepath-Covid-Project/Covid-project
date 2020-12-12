@@ -186,6 +186,7 @@
 			buildConfigurationList = D05BD9862575E65700B1853F /* Build configuration list for PBXNativeTarget "CovidCapacity" */;
 			buildPhases = (
 				76019F97BCD2AEDE3BA6B295 /* [CP] Check Pods Manifest.lock */,
+				0D308CACCA68E12B93116D7D /* [CP] Prepare Artifacts */,
 				D05BD9582575E65600B1853F /* Sources */,
 				D05BD9592575E65600B1853F /* Frameworks */,
 				D05BD95A2575E65600B1853F /* Resources */,
@@ -224,6 +225,7 @@
 			buildConfigurationList = D05BD98C2575E65700B1853F /* Build configuration list for PBXNativeTarget "CovidCapacityUITests" */;
 			buildPhases = (
 				902E90FDB6988EA7938CD9BB /* [CP] Check Pods Manifest.lock */,
+				4075FF4BEF1736AA71828C7D /* [CP] Prepare Artifacts */,
 				D05BD9792575E65700B1853F /* Sources */,
 				D05BD97A2575E65700B1853F /* Frameworks */,
 				D05BD97B2575E65700B1853F /* Resources */,
@@ -325,6 +327,40 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CovidCapacity-CovidCapacityUITests/Pods-CovidCapacity-CovidCapacityUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0D308CACCA68E12B93116D7D /* [CP] Prepare Artifacts */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CovidCapacity/Pods-CovidCapacity-artifacts-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Prepare Artifacts";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CovidCapacity/Pods-CovidCapacity-artifacts-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CovidCapacity/Pods-CovidCapacity-artifacts.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4075FF4BEF1736AA71828C7D /* [CP] Prepare Artifacts */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CovidCapacity-CovidCapacityUITests/Pods-CovidCapacity-CovidCapacityUITests-artifacts-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Prepare Artifacts";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CovidCapacity-CovidCapacityUITests/Pods-CovidCapacity-CovidCapacityUITests-artifacts-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CovidCapacity-CovidCapacityUITests/Pods-CovidCapacity-CovidCapacityUITests-artifacts.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		56AF41FA09AD87925ABF942C /* [CP] Check Pods Manifest.lock */ = {
