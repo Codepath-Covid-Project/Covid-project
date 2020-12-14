@@ -70,8 +70,6 @@ Optional:
 ## Digital Wireframes
 <img src="https://i.imgur.com/MwJlKks.png" width=300>
 
-## Schema 
-[This section will be completed in Unit 9]
 ### Models
 
 
@@ -100,3 +98,5 @@ Optional:
 and address
 - Settings Screen
     - (Update/PUT) Update setting preferences
+## Video Walkthrough
+<img src="http://g.recordit.co/s47DCoOFAX.gif" width=300>
